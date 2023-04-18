@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="Open Google"
+
+        android:backgroundTint="@color/black"
+        android:id="@+id/btn_google"/>
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:backgroundTint="@color/black"
+        android:text="Open Phone"
+        android:id="@+id/btn_phone"
+        android:layout_below="@id/btn_google"
+        />
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:backgroundTint="@color/black"
+        android:text="Open mess"
+        android:id="@+id/btn_mess"
+        android:layout_below="@id/btn_phone"
+        />
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:backgroundTint="@color/black"
+        android:text="Open Wiffi"
+        android:id="@+id/btn_setting"
+        android:layout_below="@id/btn_mess"
+        />
+
+    <Button
+        android:id="@+id/btn_contact"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/btn_setting"
+
+        android:backgroundTint="@color/black"
+        android:text="Open contact" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="190dp"
+        android:layout_height="149dp"
+        android:layout_marginTop="300dp"
+        android:rotationX="1"
+        app:srcCompat="@drawable/anh" />
+
+</RelativeLayout>
